@@ -5,40 +5,66 @@ function App() {
     return (
         <div>
             <Character
-                name={'Bart'}
-                age={12}
-                inf={"Бартоломю ДжоДжо «Барт» Сімпсон (англ. Bartholomew JoJo «Bart» Simpson) — один із головних героївмультиплікаційного серіалу Сімпсони. Барт — найстарша дитина Гомера і Мардж Сімпсон. У нього також є дві молодшіnсестри — Ліса і Меґґі. Барт є втіленням образу бешкетника та посереднього учня у школі. Разом зі своїм батькомnБарт є одним із найвідоміших персонажів у цьому серіалі."}
-                picture = 'https:upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png'
-                alt = {'Bart'}
+                id={1}
+                name={'Rick Sanchez'}
+                status={"Alive"}
+                species={"Human"}
+                gender = {"Male"}
+                image = 'https://upload.wikimedia.org/wikipedia/uk/thumb/f/f7/RickSanchez.jpg/375px-RickSanchez.jpg'
+                alt = {'Rick'}
             />
+
             <Character
-                name={'Homer'}
-                age={48}
-                inf={'Гомер Джей Сімпсон — один із головних героїв мультсеріалу «Сімпсони». Гомер — милий та кумедний, проте іноді грубий і неввічливий батько родини. Він має очевидні вади: товстий, лисий і не дуже розумний. Нерідко він поводиться як блазень, абсурдно, егоїстично і нетактовно, але все ж лишається симпатичним.'}
-                picture= 'https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'
-                alt={'Homer'}
+                id={2}
+                name={'"Morty Smith'}
+                status={"Alive"}
+                species={"Human"}
+                gender = {"Male"}
+                image = 'https://upload.wikimedia.org/wikipedia/uk/thumb/c/c7/%D0%9C%D0%BE%D1%80%D1%82%D1%96.jpg/375px-%D0%9C%D0%BE%D1%80%D1%82%D1%96.jpg'
+                alt = {'Morty'}
             />
+
             <Character
-                name={'Marge'}
-                age={44}
-                inf={'Марджорі Сімпсон — один з головних персонажів анімаційного серіалу Сімпсони, дружина Гомера Сімпсона, мати Ліси та Барта. Домогосподарка, майже весь свій час проводить удома доглядаючи наймолодшу дитину Меґґі, а також Барта, Лісу і чоловіка.'}
-                picture= 'https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png'
-                alt={'Marge'}
+                id={3}
+                name={'Summer Smith'}
+                status={"Alive"}
+                species={"Human"}
+                gender = {"Female"}
+                image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7rrR7faMGANux1Mt4p2vp0P_AT9WKssR2bQ&usqp=CAU'
+                alt = {'Summer'}
             />
+
             <Character
-                name={'lisa'}
-                age={8}
-                inf={'Лі́са Марі Сімпсон (англ. Lisa Marie Simpson) — персонажка анімаційного телесеріалу «Сімпсони», озвучена Ярдлі Сміт. Автор серіалу Мет Ґрейнінґ назвав героїню іменем сестри.'}
-                picture='https://upload.wikimedia.org/wikipedia/uk/thumb/a/ae/Lisasmiling.png/255px-Lisasmiling.png'
-                alt = 'lisa'
+                id={4}
+                name={'Beth Smith'}
+                status={"Alive"}
+                species={"Human"}
+                gender = {"Female"}
+                image = 'https://upload.wikimedia.org/wikipedia/en/5/58/Beth_Smith.png'
+                alt = {'Beth'}
             />
+
             <Character
-                name={'Maggie'}
-                age={1}
-                inf={'Маргарет «Меґґі» Сімпсон — одна з головних героїв мультсеріалу Сімпсони, найменша дочка Гомера Сімпсона та Мардж Сімпсон. Протягом усіх років серіалу Меґґі не росте і завжди залишається немовлям у повзунках та підгузнику. '}
-                picture= 'https://upload.wikimedia.org/wikipedia/uk/9/9d/Maggie_Simpson.png'
-                alt = {'Maggie'}
+                id={5}
+                name={'Jerry Smith'}
+                status={"Alive"}
+                species={"Human"}
+                gender = {"Male"}
+                image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTh-CyKzoK2JHGjj09MrromV3HDMR2q9vb-A&usqp=CAU'
+                alt = {'Jerry'}
             />
+
+            <Character
+                id={6}
+                name={'Abadango Cluster Princess'}
+                status={"Alive"}
+                species={"Alien"}
+                gender = {"Female"}
+                image = 'https://rickandmortyapi.com/api/character/avatar/6.jpeg'
+                alt = {'Abadango'}
+            />
+
+
 
         </div>
 
