@@ -3,7 +3,7 @@
 // Запити робити через axios, організація коду через сервіси
 
 import {useEffect, useState} from "react";
-import {getUsers} from "../services/User.api.service";
+import {getUsers} from "../../services/User.api.service";
 import User from "../user/User";
 
 export default function Users ({lift}) {

@@ -1,8 +1,10 @@
 import './App.css';
 import Users from "./Components/users/Users";
-import {getUsersPosts} from "./Components/services/User.api.service";
-import {useState} from "react";
 import Posts from "./Components/posts/Posts";
+
+import {getUsersPosts} from "./services/User.api.service";
+import {useState} from "react";
+
 
 
 export default function App() {
