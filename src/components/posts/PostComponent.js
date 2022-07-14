@@ -10,3 +10,7 @@ function PostComponent ({item}) {
 
 export default PostComponent;
 
+
+
+
+

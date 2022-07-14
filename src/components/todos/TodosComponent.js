@@ -3,7 +3,6 @@ import TodoComponent from "./TodoComponent";
 
 import {useEffect, useState} from "react";
 
-
 function TodosComponent  ()  {
 
     const [todos, setTodos] = useState([]);
